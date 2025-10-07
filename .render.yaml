@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: smart-crop-yield-estimator
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python src/app.py
-    pythonVersion: "3.10.13"
